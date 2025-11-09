@@ -1,5 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+    <!--
+████████████████████████████████████████████████████████████████
+█                                                              █
+█  © 2024 [Your Name]. All Rights Reserved.                   █
+█  Portfolio Website - Designed & Developed by Varsha K.N.   █
+█                                                              █
+█  This code is the intellectual property of Varsha K. N.     █
+█  Unauthorized copying, modification, or distribution        █
+█  of this code is strictly prohibited.                       █
+█                                                              █
+█  Contact: varshakn24@gmail.com                            █
+█  GitHub: github.com/VN1702                            █
+█  LinkedIn: linkedin.com/in/yourusername                     █
+█                                                              █
+████████████████████████████████████████████████████████████████
+-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -330,7 +346,38 @@
                 transform: scale(0.8);
             }
         }
+        .footer {
+            position: fixed;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 12px;
+            z-index: 5;
+            background: rgba(0, 0, 0, 0.3);
+            padding: 8px 20px;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+        }
+
+        .footer a {
+            color: rgba(255, 255, 255, 0.9);
+            text-decoration: none;
+            margin: 0 5px;
+        }
+
+        .footer a:hover {
+            color: white;
+            text-decoration: underline;
+        }
     </style>
+    <!--
+    ═══════════════════════════════════════════════════════════
+    CSS & Design © 2024 [Your Name]
+    Custom animations and interactive elements created by me
+    ═══════════════════════════════════════════════════════════
+    -->
 </head>
 <body>
     <div class="container">
@@ -370,6 +417,10 @@
         <button class="section-btn contact" onclick="openSection('contact')">
             📧 Contact
         </button>
+    </div>
+    <div class="footer">
+            © 2024 <a href="https://github.com/yourusername" target="_blank">Your Name</a> | All Rights Reserved
+        </div>
     </div>
 
     <div class="modal" id="modal">
